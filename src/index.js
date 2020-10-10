@@ -1,1 +1,1 @@
-export default 'Welcome to totally-random'
+export default 'Welcome to totally-random';
