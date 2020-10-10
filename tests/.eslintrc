@@ -1,5 +1,10 @@
 {
-  "env": {
-    "mocha": true
-  }
+    "env": {
+        "mocha": true,
+        "jest": true,
+        "es6": true
+    },
+    "parserOptions": {
+        "sourceType": "module"
+    }
 }
