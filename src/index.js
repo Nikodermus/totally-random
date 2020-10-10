@@ -1,3 +1,10 @@
+/**
+ * Return a random integer number
+ * @param {number} max = 100 - Max incluyent
+ * @param {number} min = 0 - Min incluyent
+ * @return {number} random between limits
+ */
+
 const totallyRandom = (...args) => {
     let min = 0;
     let max = 100;

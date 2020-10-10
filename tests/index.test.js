@@ -2,6 +2,7 @@ import expect from 'expect';
 
 import tr from 'src/index';
 
+
 describe('Totally Random', () => {
     it('returns a number', () => {
         const testDefault = new Array(10).map(() => tr());

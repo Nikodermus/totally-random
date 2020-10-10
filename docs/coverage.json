@@ -1,0 +1,19 @@
+{
+  "coverage": "50%",
+  "expectCount": 2,
+  "actualCount": 1,
+  "files": {
+    "src/array.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        3
+      ]
+    },
+    "src/index.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    }
+  }
+}

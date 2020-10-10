@@ -1,6 +1,6 @@
 {
-    "name": "totally-random",
-    "version": "1.0.0",
+    "name": "@nikodermus/totally-random",
+    "version": "0.1.1",
     "description": "Describe totally-random here",
     "main": "lib/index.js",
     "module": "es/index.js",
@@ -12,13 +12,16 @@
     "scripts": {
         "build": "nwb build-web-module",
         "clean": "nwb clean-module",
-        "prepublishOnly": "npm run build",
+        "prepublishOnly": "npm run test && npm run build",
         "test": "nwb test",
         "test:coverage": "nwb test --coverage",
-        "test:watch": "nwb test --server"
+        "test:watch": "nwb test --server",
+        "docs": "esdoc"
     },
     "dependencies": {},
     "devDependencies": {
+        "esdoc": "^1.1.0",
+        "esdoc-standard-plugin": "^1.0.0",
         "nwb": "0.25.x"
     },
     "author": "Nicolas M. Pardo <nicolasm@nikodermus.media>",
